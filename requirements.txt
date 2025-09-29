@@ -1,6 +1,6 @@
 disnake==2.11.0
 python-dotenv
-user_agent
+user-agents
 requests>=2.31.0
 humanize
 motor
@@ -11,21 +11,18 @@ aiofiles
 git+https://github.com/zRitsu/jishaku.git
 packaging
 aiosqlite
-yt-dlp[default]>=2025.08.11
+yt-dlp[default]>=2023.08.11
 tornado>=6.4.2
 emoji
 urllib3>=2.5.0
 async-timeout
 cachetools
 regex
-syncedlyrics
 pylrc
 rapidfuzz
-nodriver==0.32
 undetected-chromedriver==3.5.5
 ruamel.yaml
 nest_asyncio
 setuptools>=70.0.0; python_version>='3.12'
 curl_cffi
-audioop-lts; python_version>='3.13'
 uvloop; sys_platform != 'win32'
